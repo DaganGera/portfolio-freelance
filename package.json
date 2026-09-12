@@ -19,7 +19,8 @@
     "nodemailer": "^6.9.15",
     "react": "^18",
     "react-dom": "^18",
-    "scrolltrigger": "^1.0.1"
+    "scrolltrigger": "^1.0.1",
+    "sharp": "^0.35.4"
   },
   "devDependencies": {
     "@types/node": "^20",

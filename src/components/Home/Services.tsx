@@ -5,10 +5,10 @@ import Top2 from "../../../public/images/general/graphics/flourish2.png";
 import Bottom1 from "../../../public/images/general/graphics/flourish3.png";
 import Bottom2 from "../../../public/images/general/graphics/flourish4.png";
 import Bottom3 from "../../../public/images/general/graphics/flourish5.png";
-import Service1 from "../../../public/images/general/graphics/crossfade1.png";
-import Service2 from "../../../public/images/general/markow-logo.png";
-import Service3 from "../../../public/images/general/graphics/crossfade2.png";
-import Service4 from "../../../public/images/general/graphics/crossfade3.png";
+import Service1 from "../../../public/images/general/graphics/service-web.png";
+import Service2 from "../../../public/images/general/graphics/service-brand.png";
+import Service3 from "../../../public/images/general/graphics/service-crm.png";
+import Service4 from "../../../public/images/general/graphics/service-automation.png";
 import Header2 from "../Header2";
 import Image from "next/image";
 import ServiceImage from "../../../public/images/general/stock/services-bg.jpg";
@@ -160,25 +160,25 @@ function Services() {
       id: "service1",
       image: Service1,
       zIndex: "z-[1]",
-      alt: "Markow Studios brand graphic representing web design & development",
+      alt: "browser window mockup of a website layout",
     },
     {
       id: "service2",
       image: Service2,
       zIndex: "z-[2]",
-      alt: "Markow Studios logo",
+      alt: "Markow Studios poster mockup with brand color swatches",
     },
     {
       id: "service3",
       image: Service3,
       zIndex: "z-[3]",
-      alt: "Markow Studios brand graphic representing CRM & ERP systems",
+      alt: "CRM dashboard mockup with client pipeline table",
     },
     {
       id: "service4",
       image: Service4,
       zIndex: "z-[4]",
-      alt: "Markow Studios brand graphic representing workflow automation",
+      alt: "automation workflow diagram: new order, send WhatsApp, update sheet, email receipt",
     },
   ];
 

@@ -5,7 +5,7 @@ import Header6 from "../Header6";
 import Image from "next/image";
 import StarSpin from "../StarSpin";
 import Paragraph from "../Paragraph";
-import HeroImage from "../../../public/images/studio11/intro.jpg";
+import HeroImage from "../../../public/images/general/stock/hero.jpg";
 import MainButton from "../MainButton";
 import { motion } from "framer-motion";
 import gsap from "gsap";
@@ -167,8 +167,8 @@ function Hero() {
           >
             <Image
               src={HeroImage}
-              alt="Studio11 Kodambakkam website homepage"
-              className="w-full h-full"
+              alt="minimal laptop and desk workspace"
+              className="w-full h-full object-cover"
               placeholder="blur"
             />
           </motion.div>

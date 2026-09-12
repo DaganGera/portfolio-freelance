@@ -3,7 +3,7 @@ import React, { useRef } from "react";
 import { spectralBridgeRegular } from "@/fonts/font";
 import Image from "next/image";
 import Paragraph from "../Paragraph";
-import AboutMain from "../../../public/images/deluv/portrait3.jpg";
+import AboutMain from "../../../public/images/general/stock/about-intro.jpg";
 import { easeInOut, motion } from "framer-motion";
 
 function Intro() {
@@ -94,7 +94,7 @@ function Intro() {
               >
                 <Image
                   src={AboutMain}
-                  alt="bridal portrait from the DeLuv website"
+                  alt="laptop and a blank sheet of paper on a wooden desk"
                   className="w-full"
                   placeholder="blur"
                   ref={imageRef}

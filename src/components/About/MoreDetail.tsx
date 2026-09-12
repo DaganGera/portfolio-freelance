@@ -3,8 +3,8 @@
 import React, { useRef } from "react";
 import Image from "next/image";
 import Paragraph from "../Paragraph";
-import AboutImage1 from "../../../public/images/studio11/portrait1.jpg";
-import AboutImage2 from "../../../public/images/edathon/landscape1.jpg";
+import AboutImage1 from "../../../public/images/general/stock/about-moredetail1.jpg";
+import AboutImage2 from "../../../public/images/general/stock/about-moredetail2.jpg";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { easeInOut, motion, useInView } from "framer-motion";
@@ -74,8 +74,8 @@ function MoreDetail() {
         <div className="w-full flex-1 object-cover overflow-hidden">
           <Image
             src={AboutImage1}
-            alt="Studio11 Kodambakkam website on mobile"
-            className="w-full h-full scale-110"
+            alt="office chair and computer silhouette against a window"
+            className="w-full h-full object-cover scale-110"
             placeholder="blur"
             ref={image1}
           />
@@ -84,8 +84,8 @@ function MoreDetail() {
           <div className="w-full object-cover overflow-hidden">
             <Image
               src={AboutImage2}
-              alt="EDA-THON event details panel"
-              className="w-full h-full scale-110"
+              alt="minimalist desk with a small plant"
+              className="w-full h-full object-cover scale-110"
               placeholder="blur"
               ref={image2}
             />

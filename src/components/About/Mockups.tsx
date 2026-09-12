@@ -2,8 +2,8 @@
 
 import React, { useRef } from "react";
 import Image from "next/image";
-import AboutOutro1 from '../../../public/images/edathon/intro.jpg'
-import AboutOutro2 from '../../../public/images/deluv/portrait2.jpg'
+import AboutOutro1 from '../../../public/images/general/stock/mockup1.jpg'
+import AboutOutro2 from '../../../public/images/general/stock/mockup2.jpg'
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
@@ -43,8 +43,8 @@ function Mockups() {
         <div className="flex-1 object-cover mt-16" ref={image1Div}>
           <Image
             src={AboutOutro1}
-            alt="EDA-THON event website"
-            className="w-full h-full"
+            alt="laptop on a desk beside a yellow chair"
+            className="w-full h-full object-cover"
             placeholder="blur"
             ref={image1}
           />
@@ -52,8 +52,8 @@ function Mockups() {
         <div className="flex-1 object-cover" ref={image2Div}>
           <Image
             src={AboutOutro2}
-            alt="DeLuv bridal makeup service card"
-            className="w-full h-full"
+            alt="phone, smartwatch, and laptop flatlay with a plant"
+            className="w-full h-full object-cover"
             placeholder="blur"
             ref={image2}
           />

@@ -1,17 +1,17 @@
 "use client";
 import React, { useRef } from "react";
-import Top1 from "../../../public/images/deluv/main.jpg";
-import Top2 from "../../../public/images/deluv/portrait3.jpg";
-import Bottom1 from "../../../public/images/general/markow-logo.png";
-import Bottom2 from "../../../public/images/studio11/main.jpg";
-import Bottom3 from "../../../public/images/general/markow-logo.png";
-import Service1 from "../../../public/images/deluv/intro.jpg";
+import Top1 from "../../../public/images/general/graphics/flourish1.png";
+import Top2 from "../../../public/images/general/graphics/flourish2.png";
+import Bottom1 from "../../../public/images/general/graphics/flourish3.png";
+import Bottom2 from "../../../public/images/general/graphics/flourish4.png";
+import Bottom3 from "../../../public/images/general/graphics/flourish5.png";
+import Service1 from "../../../public/images/general/graphics/crossfade1.png";
 import Service2 from "../../../public/images/general/markow-logo.png";
-import Service3 from "../../../public/images/edathon/landscape1.jpg";
-import Service4 from "../../../public/images/studio11/landscape1.jpg";
+import Service3 from "../../../public/images/general/graphics/crossfade2.png";
+import Service4 from "../../../public/images/general/graphics/crossfade3.png";
 import Header2 from "../Header2";
 import Image from "next/image";
-import ServiceImage from "../../../public/images/edathon/intro.jpg";
+import ServiceImage from "../../../public/images/general/stock/services-bg.jpg";
 import ServicesList from "./ServicesList";
 import { allServices } from "@/utils/services";
 import gsap from "gsap";
@@ -126,12 +126,12 @@ function Services() {
 
   const topImages = [
     {
-      alt: "bridal makeup detail from the DeLuv website",
+      alt: "Markow Studios brand graphic",
       image: Top1,
       ref: topImage1,
     },
     {
-      alt: "bridal portrait from the DeLuv website",
+      alt: "Markow Studios brand graphic",
       image: Top2,
       ref: topImage2,
     },
@@ -139,17 +139,17 @@ function Services() {
 
   const bottomImages = [
     {
-      alt: "Markow Studios logo",
+      alt: "Markow Studios brand graphic",
       image: Bottom1,
       ref: bottomImage1,
     },
     {
-      alt: "Studio11 Kodambakkam salon photography",
+      alt: "Markow Studios brand graphic",
       image: Bottom2,
       ref: bottomImage2,
     },
     {
-      alt: "Markow Studios logo",
+      alt: "Markow Studios brand graphic",
       image: Bottom3,
       ref: bottomImage3,
     },
@@ -160,7 +160,7 @@ function Services() {
       id: "service1",
       image: Service1,
       zIndex: "z-[1]",
-      alt: "DeLuv website homepage, built by Markow Studios",
+      alt: "Markow Studios brand graphic representing web design & development",
     },
     {
       id: "service2",
@@ -172,13 +172,13 @@ function Services() {
       id: "service3",
       image: Service3,
       zIndex: "z-[3]",
-      alt: "EDA-THON event details panel",
+      alt: "Markow Studios brand graphic representing CRM & ERP systems",
     },
     {
       id: "service4",
       image: Service4,
       zIndex: "z-[4]",
-      alt: "Studio11 Kodambakkam service cards",
+      alt: "Markow Studios brand graphic representing workflow automation",
     },
   ];
 
@@ -197,7 +197,7 @@ function Services() {
                   src={img.image}
                   alt={img.alt}
                   placeholder="blur"
-                  className="w-full h-full"
+                  className="w-full h-full object-cover"
                   ref={img.ref}
                 />
               </div>
@@ -218,7 +218,7 @@ function Services() {
                   src={img.image}
                   alt={img.alt}
                   placeholder="blur"
-                  className="w-full h-full"
+                  className="w-full h-full object-cover"
                   ref={img.ref}
                 />
               </div>
@@ -241,8 +241,8 @@ function Services() {
           <div className="relative md:sticky top-0 flex-1 h-auto md:h-screen object-cover overflow-hidden">
             <Image
               src={ServiceImage}
-              alt="EDA-THON event website, dark circuit-board themed hero"
-              className="w-full h-full scale-150"
+              alt="city skyline at night"
+              className="w-full h-full object-cover scale-150"
               placeholder="blur"
               ref={image}
             />
@@ -260,7 +260,7 @@ function Services() {
                     <Image
                       src={img.image}
                       alt={img.alt}
-                      className="w-full h-full"
+                      className="w-full h-full object-cover"
                     />
                   </motion.div>
                 );

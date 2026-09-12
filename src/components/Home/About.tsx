@@ -1,14 +1,13 @@
 "use client";
 import React, { useRef } from "react";
 import { spectralBridgeRegular } from "@/fonts/font";
-import Image1 from "../../../public/images/general/home/about_image4.jpg";
-import Image2 from "../../../public/images/general/home/about_image3.jpg";
+import Image2 from "../../../public/images/edathon/portrait1.jpg";
 import Image from "next/image";
 import Paragraph from "../Paragraph";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { easeInOut, motion, useInView } from "framer-motion";
-import Image3 from "../../../public/images/general/home/about_image6.jpg"
+import Image3 from "../../../public/images/deluv/portrait3.jpg"
 import Header3 from "../Header3";
 
 function About() {
@@ -87,7 +86,7 @@ function About() {
         <div className="md:flex-1 object-cover object-center overflow-hidden">
           <Image
             src={Image3}
-            alt="two boxes displayed elegantly with a pink stone background"
+            alt="bridal portrait from the DeLuv website Markow Studios built"
             className="w-full h-full scale-110"
             ref={image1}
             placeholder="blur"
@@ -100,7 +99,7 @@ function About() {
           >
             <Image
               src={Image2}
-              alt="two iphones displaying recipe app with a stone wall and green door as a vignette"
+              alt="EDA-THON event website shown on mobile"
               className="w-full h-full"
               ref={image2}
               placeholder="blur"

@@ -41,7 +41,7 @@ const projects = [
       "Performance mattered too — most visitors land on mobile from an Instagram bio link, so I optimized image loading and kept animations lightweight so the site feels instant on a phone in direct sunlight, not just on a designer's laptop.",
     ],
     position: "md:justify-end",
-    mainImage: DeluvMain,
+    mainImage: DeluvPortrait2,
     introImage: DeluvIntro,
     imagesPortrait: [
       {
@@ -49,8 +49,8 @@ const projects = [
         alt: "DeLuv homepage headline: luxury bridal beauty and the Korean glass-skin experience",
       },
       {
-        image: DeluvPortrait2,
-        alt: "bridal makeup service card with client portrait",
+        image: DeluvMain,
+        alt: "bridal makeup artist applying eyeshadow on a client",
       },
       {
         image: DeluvPortrait3,

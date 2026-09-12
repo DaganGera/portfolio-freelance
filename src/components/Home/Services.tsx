@@ -1,17 +1,17 @@
 "use client";
 import React, { useRef } from "react";
-import Top1 from "../../../public/images/services/top1.png";
-import Top2 from "../../../public/images/services/top2.png";
-import Bottom1 from "../../../public/images/services/bottom1.png";
-import Bottom2 from "../../../public/images/services/bottom2.jpg";
-import Bottom3 from "../../../public/images/services/bottom3.jpg";
-import Service1 from "../../../public/images/services/list/serviceDisplay1.jpg";
-import Service2 from "../../../public/images/services/list/serviceDisplay2.jpg";
-import Service3 from "../../../public/images/services/list/serviceDisplay4.png";
-import Service4 from "../../../public/images/services/list/serviceDisplay5.jpg";
+import Top1 from "../../../public/images/deluv/main.jpg";
+import Top2 from "../../../public/images/deluv/portrait3.jpg";
+import Bottom1 from "../../../public/images/general/markow-logo.png";
+import Bottom2 from "../../../public/images/studio11/main.jpg";
+import Bottom3 from "../../../public/images/general/markow-logo.png";
+import Service1 from "../../../public/images/deluv/intro.jpg";
+import Service2 from "../../../public/images/general/markow-logo.png";
+import Service3 from "../../../public/images/edathon/landscape1.jpg";
+import Service4 from "../../../public/images/studio11/landscape1.jpg";
 import Header2 from "../Header2";
 import Image from "next/image";
-import ServiceImage from "../../../public/images/services/list/john-gonzales-bcPmxdBGyyw-unsplash.jpg";
+import ServiceImage from "../../../public/images/edathon/intro.jpg";
 import ServicesList from "./ServicesList";
 import { allServices } from "@/utils/services";
 import gsap from "gsap";
@@ -126,12 +126,12 @@ function Services() {
 
   const topImages = [
     {
-      alt: "laptop sitting on a cozy desk",
+      alt: "bridal makeup detail from the DeLuv website",
       image: Top1,
       ref: topImage1,
     },
     {
-      alt: "phone against a rock and branch",
+      alt: "bridal portrait from the DeLuv website",
       image: Top2,
       ref: topImage2,
     },
@@ -139,17 +139,17 @@ function Services() {
 
   const bottomImages = [
     {
-      alt: "a laptop sitting on the edge of a wooden chair",
+      alt: "Markow Studios logo",
       image: Bottom1,
       ref: bottomImage1,
     },
     {
-      alt: "aesthetic sculpture with sky blue wall background",
+      alt: "Studio11 Kodambakkam salon photography",
       image: Bottom2,
       ref: bottomImage2,
     },
     {
-      alt: "a blue door surrounded by stone wall",
+      alt: "Markow Studios logo",
       image: Bottom3,
       ref: bottomImage3,
     },
@@ -160,25 +160,25 @@ function Services() {
       id: "service1",
       image: Service1,
       zIndex: "z-[1]",
-      alt: "macbook laptop perched on a step under the sunlight",
+      alt: "DeLuv website homepage, built by Markow Studios",
     },
     {
       id: "service2",
       image: Service2,
       zIndex: "z-[2]",
-      alt: "laptop sitting between two art decors",
+      alt: "Markow Studios logo",
     },
     {
       id: "service3",
       image: Service3,
       zIndex: "z-[3]",
-      alt: "iphone displaying an app against a solid background",
+      alt: "EDA-THON event details panel",
     },
     {
       id: "service4",
       image: Service4,
       zIndex: "z-[4]",
-      alt: "a deep magenta perfume bottle with its package",
+      alt: "Studio11 Kodambakkam service cards",
     },
   ];
 
@@ -241,7 +241,7 @@ function Services() {
           <div className="relative md:sticky top-0 flex-1 h-auto md:h-screen object-cover overflow-hidden">
             <Image
               src={ServiceImage}
-              alt="two spanish buildings with blue sky"
+              alt="EDA-THON event website, dark circuit-board themed hero"
               className="w-full h-full scale-150"
               placeholder="blur"
               ref={image}

@@ -86,7 +86,7 @@ function PreLoading({ count }: { readonly count: number }) {
                       ease: [0.65, 0, 0.35, 1]
                     },
                   }}
-                  className={`${spectralBridgeRegular.className} uppercase text-[29.5vw] leading-[.85] tracking-tight mb-[-.2em]`}
+                  className={`${spectralBridgeRegular.className} uppercase text-[15vw] leading-[.85] tracking-tight mb-[-.2em]`}
                 >
                   {nom}
                 </motion.p>
@@ -111,7 +111,7 @@ function PreLoading({ count }: { readonly count: number }) {
                       ease: [0.65, 0, 0.35, 1]
                     },
                   }}
-                  className={`${spectralBridgeRegular.className} uppercase text-[29.5vw] leading-[.85] tracking-tight mb-[-.2em]`}
+                  className={`${spectralBridgeRegular.className} uppercase text-[15vw] leading-[.85] tracking-tight mb-[-.2em]`}
                 >
                   {nom}
                 </motion.p>

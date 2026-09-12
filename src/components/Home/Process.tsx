@@ -2,8 +2,6 @@
 import React, { SetStateAction, useState } from "react";
 import { processes } from "@/utils/process";
 import { spectralBridgeRegular } from "@/fonts/font";
-import Image from "next/image";
-import Test from "../../../public/images/general/home/test.jpg";
 import { easeInOut, motion } from "framer-motion";
 
 function Process() {

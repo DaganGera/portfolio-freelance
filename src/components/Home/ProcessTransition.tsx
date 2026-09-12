@@ -4,8 +4,8 @@ import { offers } from "@/utils/offers";
 import Image from "next/image";
 import Heading from "../Heading";
 import Paragraph from "../Paragraph";
-import Image1 from "@../../../public/images/general/home/process_image1.jpg";
-import Image2 from "@../../../public/images/general/home/process_image2.jpg";
+import Image1 from "../../../public/images/deluv/intro.jpg";
+import Image2 from "../../../public/images/studio11/portrait2.jpg";
 import { easeInOut, motion, useInView } from "framer-motion";
 
 function ProcessTransition() {
@@ -57,7 +57,7 @@ function ProcessTransition() {
             >
               <Image
                 src={Image1}
-                alt="elegant poster with translucent brown cosmetic dropper"
+                alt="DeLuv website homepage"
                 className="w-full"
                 placeholder="blur"
               />
@@ -77,7 +77,7 @@ function ProcessTransition() {
             <div className="">
               <Image
                 src={Image2}
-                alt="suede brown chair with macbook perched on top"
+                alt="Studio11 Kodambakkam hair service card"
                 className="w-full"
                 placeholder="blur"
               />

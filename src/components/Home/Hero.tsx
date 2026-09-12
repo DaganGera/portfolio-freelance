@@ -5,7 +5,7 @@ import Header6 from "../Header6";
 import Image from "next/image";
 import StarSpin from "../StarSpin";
 import Paragraph from "../Paragraph";
-import HeroImage from "../../../public/images/general/home/hero_image.jpg";
+import HeroImage from "../../../public/images/studio11/intro.jpg";
 import MainButton from "../MainButton";
 import { motion } from "framer-motion";
 import gsap from "gsap";
@@ -122,7 +122,7 @@ function Hero() {
             animate="animate"
             className=""
           >
-            <Header1 text="Marcben" />
+            <Header1 text="Markow" />
           </motion.div>
         </div>
         <div className="overflow-hidden">
@@ -132,7 +132,7 @@ function Hero() {
             animate="animate"
             className=""
           >
-            <Header1 text="James Samuel" />
+            <Header1 text="Studios" />
           </motion.div>
         </div>
       </div>
@@ -142,7 +142,7 @@ function Hero() {
         animate="animate"
         className="flex justify-center items-center md:justify-end gap-[5em] xs:gap-[8em] mt-5 md:pr-[6em]"
       >
-        <Header6 text="Founder, Markow Studios" />
+        <Header6 text="Web, Systems & Automation" />
         <Header6 text="One Move Ahead" />
       </motion.div>
       <div className="mt-6 flex flex-col-reverse md:flex-row gap-[8vw] items-start">
@@ -167,7 +167,7 @@ function Hero() {
           >
             <Image
               src={HeroImage}
-              alt="chairs and tables in a cozy room with plants"
+              alt="Studio11 Kodambakkam website homepage"
               className="w-full h-full"
               placeholder="blur"
             />

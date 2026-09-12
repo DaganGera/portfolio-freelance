@@ -5,7 +5,7 @@ import "./globals.css";
 import LenisScroll from "@/components/LenisScroll";
 import Scroll from "@/components/Scroll";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://markowstudios.com";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://markowstudios.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

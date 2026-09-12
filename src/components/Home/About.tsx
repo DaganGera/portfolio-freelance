@@ -99,7 +99,7 @@ function About() {
           >
             <Image
               src={Image2}
-              alt="person holding a phone next to a laptop"
+              alt="laptop, phone, and tablet laid out on a desk"
               className="w-full h-full object-cover"
               ref={image2}
               placeholder="blur"

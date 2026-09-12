@@ -241,7 +241,7 @@ function Services() {
           <div className="relative md:sticky top-0 flex-1 h-auto md:h-screen object-cover overflow-hidden">
             <Image
               src={ServiceImage}
-              alt="city skyline at night"
+              alt="close-up of a modern glass office building facade"
               className="w-full h-full object-cover scale-150"
               placeholder="blur"
               ref={image}
